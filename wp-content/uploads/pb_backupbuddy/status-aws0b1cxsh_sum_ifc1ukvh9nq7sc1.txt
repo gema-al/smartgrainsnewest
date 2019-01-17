@@ -1,0 +1,324 @@
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.17","data":"BackupBuddy v8.3.4.0 using WordPress v4.9.8 with PHP v5.6.38 on Linux operating system."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.17","data":"Backup mode value setting to: `2`. Profile was: `2`. Global default is: `2`."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.17","data":"Calculated archive file: `\/home\/smartgrains\/www\/www\/wp-content\/uploads\/backupbuddy_backups\/backup-smartgrains_com-2019_01_05-05_25am-db-aws0b1cxsh.zip`."}
+{"event":"startFunction","time":1546665915,"u":"35","run":"0.37","mem":"57.17","data":"{\"function\":\"pre_backup\",\"title\":\"Getting ready to backup\"}"}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.17","data":"Performing pre-backup procedures."}
+{"event":"message","time":1546665915,"u":"35","run":"0.37","mem":"57.17","data":"Database only backup mode."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.17","data":"Flushing will not be skipped (default)."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.17","data":"Verifying directories ..."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.17","data":"Directories verified."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.17","data":"Backup serial generated: `aws0b1cxsh`."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.17","data":"About to load fileoptions data in create mode."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.28","data":"Fileoptions instance #40."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.28","data":"Created fileoptions lock file `aws0b1cxsh.txt.lock` with ID: 5c303fbb564502.98818414."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.28","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.28","data":"Fileoptions data loaded."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.28","data":"Updating statistics for last backup start."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.31","data":"Excluding additional temp directory subdir: `\/home\/smartgrains\/www\/www\/wp-content\/uploads\/backupbuddy_temp\/zvsmbgdf1o\/`."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.32","data":"Temp directory: `\/home\/smartgrains\/www\/www\/wp-content\/uploads\/backupbuddy_temp\/aws0b1cxsh\/`."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.32","data":"Backup root: `\/home\/smartgrains\/www\/www\/wp-content\/uploads\/backupbuddy_temp\/aws0b1cxsh\/`."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.32","data":"wp-config.php found in normal location."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.32","data":"Calculating mysql database tables to backup."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.32","data":"Base database dump mode (before inclusions\/exclusions): `prefix`."}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.32","data":"Determining database tables with prefix `wp_`."}
+{"event":"startAction","time":1546665915,"u":"35","run":"0.37","mem":"57.32","data":"schemaTables"}
+{"event":"finishAction","time":1546665915,"u":"35","run":"0.37","mem":"57.32","data":"schemaTables"}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.31","data":"Base database tables based on settings (14 tables): `wp_commentmeta,wp_comments,wp_layerslider,wp_layerslider_revisions,wp_links,wp_options,wp_postmeta,wp_posts,wp_term_relationships,wp_term_taxonomy,wp_termmeta,wp_terms,wp_usermeta,wp_users`"}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.31","data":"Database tables after addition (14 tables): `wp_commentmeta,wp_comments,wp_layerslider,wp_layerslider_revisions,wp_links,wp_options,wp_postmeta,wp_posts,wp_term_relationships,wp_term_taxonomy,wp_termmeta,wp_terms,wp_usermeta,wp_users`"}
+{"event":"details","time":1546665915,"u":"35","run":"0.37","mem":"57.31","data":"Database tables after exclusion (14 tables): `wp_commentmeta,wp_comments,wp_layerslider,wp_layerslider_revisions,wp_links,wp_options,wp_postmeta,wp_posts,wp_term_relationships,wp_term_taxonomy,wp_termmeta,wp_terms,wp_usermeta,wp_users`"}
+{"event":"startSubFunction","time":1546665915,"u":"35","run":"0.37","mem":"57.31","data":"{\"function\":\"calculate_tables\",\"title\":\"Found 14 tables to backup based on settings.\",\"more\":\"Tables: wp_commentmeta, wp_comments, wp_layerslider, wp_layerslider_revisions, wp_links, wp_options, wp_postmeta, wp_posts, wp_term_relationships, wp_term_taxonomy, wp_termmeta, wp_terms, wp_usermeta, wp_users\"}"}
+{"event":"details","time":1546665915,"u":"36","run":"0.38","mem":"57.36","data":"Total calculated database size: `37.26 MB`."}
+{"event":"details","time":1546665915,"u":"36","run":"0.38","mem":"57.36","data":"Breaking out tables ENABLED based on settings. Tables to be broken out into individual steps: `wp_posts, wp_postmeta`."}
+{"event":"details","time":1546665915,"u":"36","run":"0.38","mem":"57.36","data":"Integrity check will be performed based on settings for this profile."}
+{"event":"details","time":1546665915,"u":"36","run":"0.38","mem":"57.38","data":"Fileoptions `aws0b1cxsh.txt` saved. 7164 bytes written."}
+{"event":"details","time":1546665915,"u":"36","run":"0.38","mem":"57.37","data":"Creating DAT (data) file snapshotting site & backup information."}
+{"event":"startSubFunction","time":1546665915,"u":"36","run":"0.38","mem":"57.34","data":"{\"function\":\"post_count\",\"title\":\"Found 3 posts, 18 pages, and 1 comments.\"}"}
+{"event":"startSubFunction","time":1546665915,"u":"36","run":"0.38","mem":"57.34","data":"{\"function\":\"post_count\",\"title\":\"Found 1 user accounts.\"}"}
+{"event":"details","time":1546665915,"u":"36","run":"0.38","mem":"57.35","data":"DAT file contents (sans database user\/pass): Array; (;     [backupbuddy_version] => 8.3.4.0;     [wordpress_version] => 4.9.8;     [php_version] => 5.6.38;     [backup_time] => 1546665915;     [backup_type] => db;     [profile] => Array;         (;             [type] => db;             [title] => Database Only;             [skip_database_dump] => 0;             [mysqldump_additional_includes] => ;             [mysqldump_additional_excludes] => ;             [backup_nonwp_tables] => 0;             [excludes] => ;             [active_plugins_only] => 0;             [integrity_check] => 1;             [profile_globaltables] => 1;             [profile_globalexcludes] => 1;             [backup_mode] => 2;             [custom_root] => ;             [exclude_media] => 0;             [exclude_themes] => 0;             [exclude_plugins] => 0;             [tip] => Just your database. I like your minimalist style.;         ); ;     [default_profile] => Array;         (;             [type] => defaults;             [title] => Global Defaults;             [skip_database_dump] => 0;             [backup_nonwp_tables] => 0;             [integrity_check] => 1;             [mysqldump_additional_includes] => ;             [mysqldump_additional_excludes] => ;             [excludes] => ;             [custom_root] => ;             [backup_mode] => 2;             [exclude_media] => 0;             [exclude_themes] => 0;             [exclude_plugins] => 0;             [active_plugins_only] => 0;         ); ;     [serial] => aws0b1cxsh;     [trigger] => manual;     [wp-config_in_parent] => ;     [deployment_direction] => ;     [abspath] => \/home\/smartgrains\/www\/www\/;     [siteurl] => http:\/\/smartgrains.com;     [homeurl] => http:\/\/smartgrains.com;     [blogname] => smartgrains;     [blogdescription] => Just another WordPress site;     [active_plugins] => backupbuddy\/backupbuddy.php, crisp\/crisp.php, svg-support\/svg-support.php, weglot\/weglot.php;     [posts] => 3;     [pages] => 18;     [comments] => 1;     [users] => 1;     [wp_content_url] => http:\/\/smartgrains.com\/wp-content;     [wp_content_dir] => \/home\/smartgrains\/www\/www\/wp-content;     [db_charset] => utf8mb4;     [db_collate] => utf8mb4_unicode_520_ci;     [db_prefix] => wp_;     [db_server] => localhost;     [db_name] => smartgrains_newsite;     [db_user] => ;     [db_password] => ;     [db_exclusions] => ;     [db_inclusions] => ;     [db_version] => 5.7.23;     [breakout_tables] => Array;         (;             [0] => wp_posts;             [1] => wp_postmeta;         ); ;     [tables_sizes] => Array;         (;             [wp_commentmeta] => 4096;             [wp_comments] => 7488;             [wp_layerslider] => 1024;             [wp_layerslider_revisions] => 1024;             [wp_links] => 1024;             [wp_options] => 2239024;             [wp_postmeta] => 18812056;             [wp_posts] => 17954164;             [wp_term_relationships] => 3555;             [wp_term_taxonomy] => 4224;             [wp_termmeta] => 4096;             [wp_terms] => 13416;             [wp_usermeta] => 13332;             [wp_users] => 8308;         ); ;     [force_single_db_file] => ;     [skip_database_dump] => 0;     [is_multisite] => ;     [is_multisite_export] => ;     [domain] => ;     [path] => ;     [upload_url] => ;     [upload_url_rewrite] => ; ); "}
+{"event":"details","time":1546665915,"u":"36","run":"0.38","mem":"57.34","data":"Finished creating DAT (data) file."}
+{"event":"details","time":1546665915,"u":"36","run":"0.38","mem":"57.33","data":"Deleting malware transient."}
+{"event":"details","time":1546665915,"u":"36","run":"0.38","mem":"57.34","data":"Fileoptions `aws0b1cxsh.txt` saved. 7332 bytes written."}
+{"event":"details","time":1546665915,"u":"36","run":"0.38","mem":"57.33","data":"Finished pre-backup procedures."}
+{"event":"milestone","time":1546665915,"u":"36","run":"0.38","mem":"57.33","data":"finish_settings"}
+{"event":"finishFunction","time":1546665915,"u":"36","run":"0.38","mem":"57.33","data":"{\"function\":\"pre_backup\"}"}
+{"event":"message","time":1546665915,"u":"36","run":"0.38","mem":"57.32","data":"Running in modern backup mode based on settings. Mode value: `2`. Trigger: `manual`."}
+{"event":"warnings","time":1546665915,"u":"36","run":"0.38","mem":"57.32","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1546665915,"u":"36","run":"0.38","mem":"57.32","data":"Scheduling Cron for `aws0b1cxsh`."}
+{"event":"details","time":1546665915,"u":"36","run":"0.38","mem":"57.34","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1546665915,"u":"36","run":"0.38","mem":"57.34","data":"Pinging mysqli."}
+{"event":"details","time":1546665915,"u":"36","run":"0.38","mem":"57.34","data":"Database Server connection status verified."}
+{"event":"details","time":1546665915,"u":"36","run":"0.38","mem":"57.34","data":"Scheduling next step to run at `1546665760` (localized time: Jan 5, 2019 5:22:40 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `aws0b1cxsh`."}
+{"event":"details","time":1546665915,"u":"37","run":"0.39","mem":"57.35","data":"Next step scheduled."}
+{"event":"startAction","time":1546665915,"u":"37","run":"0.39","mem":"57.35","data":"cronPass"}
+{"event":"cronParams","time":1546665915,"u":"37","run":"0.39","mem":"57.35","data":"eyJ0aW1lIjoxNTQ2NjY1NzYwLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbImF3czBiMWN4c2giXX0="}
+{"event":"details","time":1546665915,"u":"37","run":"0.39","mem":"57.34","data":"Not calling spawn_cron()."}
+{"event":"details","time":1546665915,"u":"37","run":"0.39","mem":"57.34","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1546665917,"u":"31","run":"0.66","mem":"54.06","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665917,"u":"31","run":"0.66","mem":"54.08","data":"Pong! Server replied."}
+{"event":"details","time":1546665920,"u":"10","run":"0.36","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665920,"u":"11","run":"0.36","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665923,"u":"56","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665923,"u":"56","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665926,"u":"61","run":"0.34","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665926,"u":"61","run":"0.34","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665929,"u":"58","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665929,"u":"58","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665932,"u":"56","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665932,"u":"56","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665935,"u":"56","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665935,"u":"56","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665938,"u":"67","run":"0.37","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665938,"u":"67","run":"0.37","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665941,"u":"55","run":"0.29","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665941,"u":"55","run":"0.29","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665944,"u":"61","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665944,"u":"62","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665947,"u":"65","run":"0.35","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665947,"u":"65","run":"0.35","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665950,"u":"60","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665950,"u":"60","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665953,"u":"57","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665953,"u":"57","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665956,"u":"62","run":"0.36","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665956,"u":"63","run":"0.36","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665959,"u":"61","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665959,"u":"61","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665962,"u":"71","run":"0.40","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665962,"u":"71","run":"0.40","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665965,"u":"55","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665965,"u":"55","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665968,"u":"63","run":"0.37","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665968,"u":"63","run":"0.37","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665971,"u":"58","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665971,"u":"58","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665974,"u":"58","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665974,"u":"58","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665977,"u":"98","run":"0.71","mem":"54.06","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665977,"u":"98","run":"0.71","mem":"54.06","data":"Pong! Server replied."}
+{"event":"details","time":1546665981,"u":"62","run":"0.35","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665981,"u":"62","run":"0.35","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665984,"u":"54","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665984,"u":"54","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665987,"u":"61","run":"0.35","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665987,"u":"61","run":"0.35","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665990,"u":"58","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665990,"u":"58","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665993,"u":"56","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665993,"u":"56","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665996,"u":"62","run":"0.34","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665996,"u":"62","run":"0.34","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546665999,"u":"57","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546665999,"u":"57","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666002,"u":"59","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666002,"u":"59","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666005,"u":"98","run":"0.34","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666005,"u":"98","run":"0.34","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666009,"u":"64","run":"0.36","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666009,"u":"64","run":"0.36","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666012,"u":"61","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666012,"u":"62","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666015,"u":"58","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666015,"u":"59","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666018,"u":"57","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666018,"u":"57","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666021,"u":"62","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666021,"u":"62","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666024,"u":"62","run":"0.36","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666024,"u":"62","run":"0.36","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666027,"u":"61","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666027,"u":"61","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666030,"u":"58","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666030,"u":"58","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666033,"u":"61","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666033,"u":"61","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666036,"u":"64","run":"0.35","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666036,"u":"64","run":"0.35","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666039,"u":"90","run":"0.64","mem":"54.06","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666039,"u":"90","run":"0.64","mem":"54.06","data":"Pong! Server replied."}
+{"event":"details","time":1546666042,"u":"66","run":"0.37","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666042,"u":"66","run":"0.37","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666045,"u":"57","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666045,"u":"57","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666048,"u":"66","run":"0.35","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666048,"u":"66","run":"0.35","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666051,"u":"56","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666051,"u":"56","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666054,"u":"65","run":"0.36","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666054,"u":"65","run":"0.36","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666057,"u":"58","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666057,"u":"58","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666060,"u":"65","run":"0.35","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666060,"u":"65","run":"0.36","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666063,"u":"58","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666063,"u":"58","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666066,"u":"56","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666066,"u":"56","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666069,"u":"58","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666069,"u":"58","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666072,"u":"61","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666072,"u":"61","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666075,"u":"56","run":"0.29","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666075,"u":"56","run":"0.29","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666078,"u":"61","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666078,"u":"61","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666081,"u":"61","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666081,"u":"61","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666084,"u":"63","run":"0.35","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666084,"u":"63","run":"0.35","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666087,"u":"59","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666087,"u":"59","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666090,"u":"64","run":"0.35","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666090,"u":"64","run":"0.35","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666093,"u":"62","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666093,"u":"62","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666096,"u":"64","run":"0.35","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666096,"u":"64","run":"0.35","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666099,"u":"99","run":"0.67","mem":"54.06","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666099,"u":"99","run":"0.67","mem":"54.06","data":"Pong! Server replied."}
+{"event":"details","time":1546666103,"u":"62","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666103,"u":"62","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666106,"u":"62","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666106,"u":"62","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666109,"u":"56","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666109,"u":"56","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666112,"u":"58","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666112,"u":"58","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666115,"u":"56","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666115,"u":"56","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666118,"u":"56","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666118,"u":"56","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666121,"u":"58","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666121,"u":"58","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666124,"u":"58","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666124,"u":"58","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666127,"u":"61","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666127,"u":"61","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666130,"u":"57","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666130,"u":"57","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666133,"u":"59","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666133,"u":"59","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666136,"u":"61","run":"0.34","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666136,"u":"61","run":"0.34","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666139,"u":"57","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666139,"u":"57","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666142,"u":"64","run":"0.34","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666142,"u":"64","run":"0.34","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666145,"u":"58","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666145,"u":"58","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666148,"u":"61","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666148,"u":"61","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666151,"u":"54","run":"0.29","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666151,"u":"55","run":"0.29","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666154,"u":"58","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666154,"u":"58","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666157,"u":"57","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666157,"u":"57","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666160,"u":"94","run":"0.68","mem":"54.06","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666160,"u":"94","run":"0.68","mem":"54.06","data":"Pong! Server replied."}
+{"event":"details","time":1546666164,"u":"57","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666164,"u":"57","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666167,"u":"58","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666167,"u":"58","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666170,"u":"67","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666170,"u":"67","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666173,"u":"57","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666173,"u":"57","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666176,"u":"62","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666176,"u":"63","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666179,"u":"59","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666179,"u":"59","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666182,"u":"66","run":"0.36","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666182,"u":"66","run":"0.36","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666185,"u":"64","run":"0.34","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666185,"u":"64","run":"0.34","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666188,"u":"60","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666188,"u":"60","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666191,"u":"57","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666191,"u":"57","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666194,"u":"59","run":"0.34","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666194,"u":"59","run":"0.34","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666197,"u":"58","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666197,"u":"58","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666200,"u":"58","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666200,"u":"58","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666203,"u":"68","run":"0.36","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666203,"u":"68","run":"0.36","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666206,"u":"64","run":"0.36","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666206,"u":"64","run":"0.36","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666209,"u":"61","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666209,"u":"61","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666212,"u":"64","run":"0.36","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666212,"u":"64","run":"0.36","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666215,"u":"58","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666215,"u":"58","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666218,"u":"59","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666218,"u":"59","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666221,"u":"93","run":"0.66","mem":"54.06","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666221,"u":"93","run":"0.66","mem":"54.06","data":"Pong! Server replied."}
+{"event":"details","time":1546666225,"u":"61","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666225,"u":"61","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666228,"u":"57","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666228,"u":"57","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666231,"u":"57","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666231,"u":"57","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666234,"u":"57","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666234,"u":"57","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666237,"u":"58","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666237,"u":"58","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666240,"u":"58","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666240,"u":"58","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666243,"u":"57","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666243,"u":"57","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666246,"u":"59","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666246,"u":"59","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666249,"u":"58","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666249,"u":"58","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666252,"u":"61","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666252,"u":"61","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666255,"u":"60","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666255,"u":"60","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666258,"u":"63","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666258,"u":"63","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666261,"u":"63","run":"0.35","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666261,"u":"63","run":"0.35","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666264,"u":"58","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666264,"u":"58","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666267,"u":"61","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666267,"u":"61","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666270,"u":"61","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666270,"u":"61","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666273,"u":"59","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666273,"u":"59","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666276,"u":"59","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666276,"u":"59","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666279,"u":"64","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666279,"u":"64","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666282,"u":"93","run":"0.66","mem":"54.06","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666282,"u":"93","run":"0.66","mem":"54.06","data":"Pong! Server replied."}
+{"event":"details","time":1546666285,"u":"62","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666285,"u":"62","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666288,"u":"34","run":"0.34","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666288,"u":"34","run":"0.34","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666291,"u":"02","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666291,"u":"02","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666293,"u":"68","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666293,"u":"68","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666296,"u":"60","run":"0.32","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666296,"u":"60","run":"0.32","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666299,"u":"56","run":"0.30","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666299,"u":"56","run":"0.30","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666302,"u":"66","run":"0.35","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666302,"u":"66","run":"0.35","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666305,"u":"63","run":"0.33","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666305,"u":"63","run":"0.33","mem":"53.70","data":"Pong! Server replied."}
+{"event":"details","time":1546666308,"u":"27","run":"0.31","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"message","time":1546666308,"u":"27","run":"0.31","mem":"53.70","data":"Pong! Server replied."}
+{"event":"message","time":1546666310,"u":"98","run":"0.34","mem":"53.56","data":"Backup STOPPED by user. Post backup cleanup step has been scheduled to clean up any temporary files."}
+{"event":"details","time":1546666310,"u":"98","run":"0.34","mem":"53.67","data":"Fileoptions instance #30."}
+{"event":"details","time":1546666310,"u":"98","run":"0.34","mem":"53.67","data":"Created fileoptions lock file `aws0b1cxsh.txt.lock` with ID: 5c304146f028f3.09817682."}
+{"event":"details","time":1546666310,"u":"98","run":"0.34","mem":"53.70","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1546666310,"u":"98","run":"0.34","mem":"53.70","data":"Archive file not found. Not deleting."}
+{"event":"details","time":1546666310,"u":"98","run":"0.34","mem":"53.70","data":"Backup stopped by user. Any remaining processes or files will time out and be cleaned up by scheduled housekeeping functionality."}
+{"event":"haltScript","time":1546666310,"u":"98","run":"0.34","mem":"53.70","data":""}
+{"event":"details","time":1546666310,"u":"98","run":"0.34","mem":"53.74","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"message","time":1546666310,"u":"98","run":"0.34","mem":"53.71","data":"Pong! Server replied."}
